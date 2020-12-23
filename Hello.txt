@@ -1,8 +1,8 @@
-¾È³çÇÏ¼¼¿ä?
+ì•ˆë…•í•˜ì„¸ìš”?
 
-¹éÁØ ¿Â¶óÀÎ Á®Áö¿¡ µî·ÏµÇ¾î ÀÖ´Â ¹®Á¦¸¦ Ç®±âÀ§ÇÑ ·¹ÆÛÁöÅä¸®ÀÔ´Ï´Ù.
+ë°±ì¤€ ì˜¨ë¼ì¸ ì ¸ì§€ì— ë“±ë¡ë˜ì–´ ìˆëŠ” ë¬¸ì œë¥¼ í’€ê¸°ìœ„í•œ ë ˆí¼ì§€í† ë¦¬ì…ë‹ˆë‹¤.
 
-ÁÖ·Î »ç¿ëÇÏ´Â ¾ğ¾î´Â CÀÌ µÉ°ÍÀÔ´Ï´Ù. ÇÊ¿ä½Ã ÀÚ¹Ùµµ º´ÇàµË´Ï´Ù.
+ì£¼ë¡œ ì‚¬ìš©í•˜ëŠ” ì–¸ì–´ëŠ” pythonì´ ë ê²ƒì…ë‹ˆë‹¤. 
 
 
 
@@ -10,6 +10,6 @@ Hello?
 
 This repository is for solving problem at BeakJoon Online Judge(https://www.acmicpc.net/)
 
-I will usually use C.  java will be also used if needed.
+I will usually use Python. 
 
 Thank you
