@@ -39,7 +39,7 @@ number += 2
 print(number)
 number %= 5
 print(number)
-number -= 2
+number -= 3
 print(number)
 
 print(abs(-5)) # 절대값 계산
