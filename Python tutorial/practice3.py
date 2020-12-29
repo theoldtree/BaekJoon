@@ -28,7 +28,6 @@ print(subway2)
 print(subway2.pop())
 print(subway2)
 
-
 num_list = [3,2,4,5,1]
 num_list.sort() # 리스트의 정렬
 print(num_list)
@@ -42,3 +41,4 @@ print(mixed_list)
 
 subway.extend(subway2) # subway에  sunway2 리스트를 합쳐줌
 print(subway)
+print(subway[0]) # subway에 index 0 에 있는 값을 출력할 수 있음

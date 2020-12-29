@@ -9,7 +9,7 @@ print(cabinet.get(3))
 print(cabinet.get(5)) # 지정이 안된 key값을 원할경우 None이 출력됨
 print(cabinet.get(5,"available")) # 지정이 되어 있으면 value 값이 출력이 되고, 만약 없으면 , 뒤의 내용이 출력됨
 
-print(3 in cabinet) # in key워드 값
+print(3 in cabinet) # in key워드 => 값출력
 print(5 in cabinet)
 
 cabinet2 = {"a-3":"jenny", "b-100":"julia"}
