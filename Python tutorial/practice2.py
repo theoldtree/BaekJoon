@@ -21,7 +21,7 @@ print('after number',idnumber[-7:]) # 뒤의 7자리부터 끝까지
 python = "Python is Amazing"
 print(python.lower()) # 소문자로 변경
 print(python.upper()) # 대문자로 변경
-print(python[0].isupper()) # 첫번째 글자가 대문자인지 검사
+print(python.isupper()) # 첫번째 글자가 대문자인지 검사
 print(len(python)) # 문자열의 길이를 반환
 print(python.replace("Python",'Java')) # 문자열에서 해당 문자를 찾은뒤 바꿔서 출력
 
