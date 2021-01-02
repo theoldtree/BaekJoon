@@ -1,0 +1,4 @@
+math : 0
+english : 50
+sciece : 80
+coding : 50
