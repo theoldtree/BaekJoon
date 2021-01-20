@@ -1,4 +1,5 @@
 count = input()
+count = int(count)
 num_list = input().split(" ")
 dic = dict()
 num = 0
@@ -9,4 +10,5 @@ for index in range(0,count):
     num = int(num_list[index])
     if num in dic:
         dic[num] = dic[num] + 1
-print(dic)
+for index in range(0,23):
+    print(list(dic.values())[index], end = " ")
