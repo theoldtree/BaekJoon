@@ -19,6 +19,7 @@ def withdraw(balance, money):
 def withdraw_night(balance, money):
     commission = 100
     return (commission, balance-money-commission)
+    # TODO 튜플형식으로 두개 이상 리턴 할 수 있음
 
 balance = 0
 balance = deposit(balance, 1000)
@@ -40,7 +41,7 @@ profile("jane")
 profile(name="jessy", main_lang="python", age=20) # 변수를 직접 지정해주면 순서가 바뀌어도 무관
 
 ## 가변인자
-def profile(name, age, *language): # *로 많은 인자를 전달 받을 수 있음
+def profile(name, age, *language): # TODO *로 많은 인자를 전달 받을 수 있음
     print("name : {0}, age : {1}".format(name, age), end = "  ") # 개행을 하고싶지 않을때 -> end
     for lang in language:
         print(lang, end = " ")

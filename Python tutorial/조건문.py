@@ -1,5 +1,6 @@
 ### if 
-weather = input("how is the weather today? ") # input 문구안의 내용을 출력하고 입력을 기다린다.
+weather = input("how is the weather today? ") 
+#  TODO input 문구안의 내용을 출력하고 입력을 기다린다.
 if weather == "rainy" or weather == "blizzard":
     print("take an umbrella")
 elif weather == "dusty":
@@ -16,3 +17,14 @@ elif(0<temp<10):
     print("take a coat")
 else:
     print("too cold,, don't go outside")
+
+## continue break
+absent = [2, 5]
+no_book = [7]
+for student in range(1,11):
+    if student in absent:
+        continue
+    elif student in no_book:
+        print("stop")
+        break
+    print("{} reades a book".format(student))
